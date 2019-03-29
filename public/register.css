@@ -1,0 +1,19 @@
+body{
+	background: :url("image/spoon.jpg");
+	background: url("image/spoon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.centered-form{
+	width: 70%;
+	margin-top: 200px;
+	margin-right: 200px;
+	height: 800px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+	height: 500px;
+	width: 600px;
+}

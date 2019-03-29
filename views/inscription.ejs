@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Page Inscription</title>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+         
+        <link rel="stylesheet" href="register.css">
+        
+    </head>
+    <body>
+        
+        <marquee behavior="" direction="center"><h1 style="color:darksalmon;">BIENVENUE SUR MA PAGE INSCRIPTION</h1></marquee>
+        <div class="container">
+            <div class="row centered-form">
+                <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fas fa-user-plus"></i>Incrivez-vous<small> C'est Gratuit</small></h3>
+                                </div>
+                                <div class="panel-body">
+                                   
+                                <form role="form" method="post" action="/inscription">
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                            <input type="text" name="nom" id="nom" class="form-control input-sm"
+                                             placeholder="Votre Nom" 
+                                             >
+                                            
+                                        </div>
+                                            </div><br><br>
+                                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="prenom" id="prenom" 
+                                                    class="form-control input-sm" placeholder="Votre Prénom"
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="form-control input-sm"
+                                             placeholder="Email Address" 
+                                             >
+                                        </div>
+<br> <br>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="password" name="motdepass" id="motdepass" 
+                                                    class="form-control input-sm" placeholder="Mot De Pass"
+                                                    >
+                                                </div>
+                                                    
+                                            </div><br>
+                                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="password" 
+                                                    name="motdepass2" id="motdepass_confirmation" 
+                                                    class="form-control input-sm" 
+                                                    placeholder="Comfirmer Mot de Pass"
+                                                    >
+
+                                                </div>
+                                            </div>
+                                        </div><br>
+                                        
+                                        <input type="submit" value="Envoyer" class="btn btn-info btn-block">
+                                
+                                </form>
+                            </div>
+                </div>
+            </div>
+        </div>
+       
+        <script src="assets/js/jquery-min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>	
+    </body>
+</html>

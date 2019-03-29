@@ -1,0 +1,49 @@
+body{
+    background: url("image/break-0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sy{
+    width: 65%;
+    height: 100%;
+    background: aliceblue;
+   margin: 200px auto 200px auto;
+   display: block;
+   border-radius: 2px;
+}
+.sy h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+}
+.sy p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #2341d6;
+    color: #FFF;
+    border: none;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+.in {
+    
+    outline: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 0px;
+    background: none;
+    border: none;
+    width: 80%;
+    
+  }
+  
